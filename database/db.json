@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "title": "Laravel",
+      "body": "Laravel Detail",
+      "tags": [
+        "laravel"
+      ],
+      "id": 1
+    },
+    {
+      "title": "Php",
+      "body": "PHP Detail",
+      "tags": [
+        "php"
+      ],
+      "id": 2
+    },
+    {
+      "title": "Title 2",
+      "body": "detail",
+      "tags": [
+        "laravel"
+      ],
+      "id": 3
+    },
+    {
+      "title": "Laravel Class",
+      "body": "LARAVEL Detail",
+      "tags": [
+        "laravel",
+        "php",
+        "vue"
+      ],
+      "id": 4
+    },
+    {
+      "title": "test",
+      "body": "test",
+      "tags": [
+        "news"
+      ],
+      "id": 5
+    }
+  ]
+}
