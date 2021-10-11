@@ -1,5 +1,5 @@
-import firebase from "firebase/app";
-import "firebase/firestore"
+import firebase from 'firebase/compat/app'
+import 'firebase/compat/firestore'
 const firebaseConfig = {
     apiKey: "AIzaSyBdp6VTFHDITFMjoxI_sJX-fC9DEOTvimk",
     authDomain: "vue-blog-system-8a112.firebaseapp.com",
@@ -8,8 +8,10 @@ const firebaseConfig = {
     messagingSenderId: "981161682696",
     appId: "1:981161682696:web:3cda6a794e9e513be6aebd"
   };
-  firebase.initializeApp(firebaseConfig)
 
+  firebase.initializeApp(firebaseConfig);
+
+  //database setup
   let db=firebase.firestore();
 
   export {db};
