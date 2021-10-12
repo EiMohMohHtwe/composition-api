@@ -15,7 +15,7 @@ let getPosts=()=>{
                 // posts.value=datas
 
                 //Firebase
-                let res=await db.collection("posts").get()
+                let res=await db.collection("posts").orderBy("created_at","desc").get()
                 posts.value=res.docs.map((doc)=>{
                     return {id:doc.id,...doc.data()}
                     //console.log(doc.data());
