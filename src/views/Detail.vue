@@ -12,10 +12,13 @@
 <script>
 import getPost from "../composables/getPost"
 import {useRoute} from "vue-router"
+import {useRouter} from "vue-router"
+import {db} from "../firebase/config"
 export default{
     props:["id"],
     setup(props){
         let route=useRoute();
+        let router=useRouter();
 
         let {post,error,load}=getPost(route.params.id);
         load();
